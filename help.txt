@@ -1,0 +1,11 @@
+﻿install the following packages using Tools -> Command Line -> Developer Command Prompt
+
+1- dotnet add package Hangfire
+2- dotnet add package Hangfire.Core
+3- dotnet add package Hangfire.Storage.SQLite
+
+and then dotnet build
+
+for secutiy of hangire dashboard, add below package
+
+dotnet add package Hangfire.Dashboard.Basic.Authentication
