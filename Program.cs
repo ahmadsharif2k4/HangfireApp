@@ -45,7 +45,7 @@ app.UseHangfireDashboard("/hangfire", new DashboardOptions()
     {
         new HangfireCustomBasicAuthenticationFilter()
         {
-            User ="abc",
+            User ="xyz",
             Pass ="123"
         }
     }
