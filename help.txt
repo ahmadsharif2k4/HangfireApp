@@ -7,5 +7,4 @@
 and then dotnet build
 
 for secutiy of hangire dashboard, add below package
-
 dotnet add package Hangfire.Dashboard.Basic.Authentication
